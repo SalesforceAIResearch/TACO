@@ -1,0 +1,9 @@
+data:
+  - 
+    name: "llava_pretrain"
+    type: huggingface
+    path: "TIGER-Lab/llava-data"
+    format: chat
+    split: train
+    shuffle: true
+    revision: script
