@@ -20,7 +20,7 @@ We introduce TACO as a family of multi-modal large action models designed to imp
 ### Installation
 You can easily download the repo and set up the environment via:
 ```
-git clone https://github.com/airesearch-emu/taco.git
+git clone https://github.com/SalesforceAIResearch/TACO.git
 cd taco
 
 pip install -r requirements.txt
