@@ -21,11 +21,20 @@ We introduce TACO as a family of multi-modal large action models designed to imp
 You can easily download the repo and set up the environment via:
 ```
 git clone https://github.com/SalesforceAIResearch/TACO.git
-cd taco
+cd TACO
 
 pip install -r requirements.txt
 ```
 Note that this ```requirements.txt``` is mainly for running inference and eval with taco. For training taco, see the [Training](#training) section for additional requirements.
+
+If you encounter issues with the installation, here're some tips:
+- Issues with cuda and Pytorch compatibility: the authors used ```torch==2.1.2``` with cuda11.8, which can be install via:
+```pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118```
+
+- Issues with installing submodules: 
+    - For ram, refer to https://github.com/xinyu1205/recognize-anything
+    - For GroundingDINO, refer to https://github.com/IDEA-Research/GroundingDINO
+
 ### Inference and Eval
 #### Inference only
 Run the python command below
