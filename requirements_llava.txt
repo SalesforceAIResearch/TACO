@@ -31,7 +31,6 @@ sglang==0.3.6.post3
 shortuuid==1.0.13
 tokenizers==0.15.2
 torch==2.1.2
-torch_npu==2.4.0
 torchvision==0.16.2
 tqdm==4.66.5
 transformers==4.46.3

@@ -86,7 +86,6 @@ tiktoken==0.7.0
 timm==0.6.13
 tokenizers==0.19.1
 torch==2.1.2
-torch_npu==2.4.0
 torchvision==0.16.2
 tqdm==4.67.0
 transformers==4.43.0
